@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-   basePath: "/sinaSahraeian"
-};
+const nextConfig = {};
 
 export default nextConfig;

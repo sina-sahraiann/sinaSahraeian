@@ -13,7 +13,7 @@ export const TextGenerateEffect = ({
   const [scope, animate] = useAnimate();
   let wordsArray = words.split(" ");
   useEffect(() => {
-    console.log(wordsArray);
+    // console.log(wordsArray);
     animate(
       "span",
       {
@@ -28,7 +28,7 @@ export const TextGenerateEffect = ({
 
   const renderWords = () => {
     return (
-      <motion.div ref={scope}>
+      <motion.div className="text-balance" ref={scope}>
         {wordsArray.map((word, idx) => {
           return (
             <motion.span

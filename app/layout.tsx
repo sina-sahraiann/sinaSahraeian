@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Open_Sans({ subsets: ['latin'], weight: ["300", "400", "500", "700"] });
 
 export const metadata: Metadata = {
   title: "Sina Sahraeian",
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/coffee.jpg" sizes="any" />
+        <link rel="icon" href="manifest/favicon.ico" sizes="48x48" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
