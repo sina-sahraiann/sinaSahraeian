@@ -30,7 +30,7 @@ export function OrbitingStacks() {
 
          {/* Outer Circles (reverse) */}
          <OrbitingCircles
-            className="h-[50px] w-[50px] border-none bg-transparent"
+            className="h-[30px] w-[30px] border-none bg-transparent"
             reverse
             radius={130}
             duration={20}
@@ -38,7 +38,7 @@ export function OrbitingStacks() {
             <img src="/ts.svg" alt="icon5" className="size-10" />
          </OrbitingCircles>
          <OrbitingCircles
-            className="h-[50px] w-[50px] border-none bg-transparent"
+            className="h-[30px] w-[30px] border-none bg-transparent"
             reverse
             radius={130}
             duration={20}
@@ -50,10 +50,19 @@ export function OrbitingStacks() {
             className="h-[30px] w-[30px] border-none bg-transparent"
             reverse
             radius={180}
-            duration={20}
+            duration={16}
             delay={45}
          >
             <img src="/redux.svg" alt="icon5" className="size-10" />
+         </OrbitingCircles>
+         <OrbitingCircles
+            className="h-[30px] w-[30px] border-none bg-transparent"
+            reverse
+            radius={180}
+            duration={16}
+            delay={37}
+         >
+            <img src="/framer.svg" alt="icon5" className="size-12" />
          </OrbitingCircles>
          {/* <OrbitingCircles
             className="h-[30px] w-[30px] border-none bg-transparent"
