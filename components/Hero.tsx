@@ -59,7 +59,7 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl text-balance"
           />
 
-          <a href="/Sina_sahraeian_resume.pdf">
+          <a href="/Sina_sahraeian_resume.pdf" download>
             <MagicButton
               title="Download Resume"
               icon={<FaDownload />}
