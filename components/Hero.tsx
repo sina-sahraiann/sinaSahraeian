@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaDownload, FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
@@ -59,10 +59,10 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl text-balance"
           />
 
-          <a href="#about">
+          <a href="/Sina_sahraeian_resume.pdf">
             <MagicButton
-              title="Get to know me"
-              icon={<FaLocationArrow />}
+              title="Download Resume"
+              icon={<FaDownload />}
               position="right"
             />
           </a>
