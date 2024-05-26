@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
+import { Analytics } from '@vercel/analytics/react';
+
 
 import "./globals.css";
 import { ThemeProvider } from "./provider";
@@ -30,6 +32,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
