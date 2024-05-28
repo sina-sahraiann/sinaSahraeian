@@ -54,6 +54,14 @@ export const projects = [
     iconLists: ["/next copy.svg", "/re.svg", "/tail.svg", "/ts.svg"],
     link: "/2byte.tech",
   },
+  {
+    id: 3,
+    title: "Jelotar",
+    des: "Jelotar is a task managment system that has all the basic needs of a software team",
+    img: "/jelotar.png",
+    iconLists: [ "/re.svg", "/tail.svg"],
+    link: "/jelotar.com",
+  },
 ];
 
 export const testimonials = [
