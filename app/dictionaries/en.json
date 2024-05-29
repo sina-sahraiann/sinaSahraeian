@@ -7,15 +7,15 @@
     "navbar": [
         {
             "name": "About",
-            "link": "/about"
+            "link": "#about"
         },
         {
             "name": "Projects",
-            "link": "/skills"
+            "link": "#projects"
         },
         {
             "name": "WorkXp",
-            "link": "/workxp"
+            "link": "#workxp"
         }
     ],
     "gridItems": [

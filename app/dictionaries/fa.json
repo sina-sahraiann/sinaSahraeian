@@ -21,7 +21,7 @@
     "gridItems": [
         {
             "id": 1,
-            "title": "وفادار به دیدگاه شما، متعهد به موفقیت",
+            "title": "وفادار به هدف شما، متعهد به موفقیت",
             "description": "",
             "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
             "imgClassName": "w-full h-full",
