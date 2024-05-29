@@ -7,7 +7,10 @@ import { FlipWords } from "./ui/flip-words";
 
 const words = ["better", "elegant", "modern"];
 
-const Hero = () => {
+const Hero = ({ locale,dict }: { locale?: string, dict: any }) => {
+
+
+
   return (
     <div className="pb-20 pt-36">
       {/**
@@ -46,7 +49,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Crafting elegant web applications
+            {locale === 'en' ? 'Crafting elegant web applications' : 'طراحی برنامه‌های شکیل تحت وب'}
           </p>
 
           {/**
@@ -55,15 +58,18 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Hi! I&apos;m Sina Sahraeian, a Next.js Developer."
+            words={dict?.hero?.title || ''}
             className="text-center text-[40px] md:text-5xl lg:text-6xl text-balance"
           />
 
           <a href="/Sina_sahraeian_resume.pdf" download>
             <MagicButton
-              title="Download Resume"
+              title={locale === 'en' ?
+                "Download Resume" :
+                'دانلود رزومه'
+              }
               icon={<FaDownload />}
-              position="right"
+              position={locale === 'en' ? 'right' : 'left'}
             />
           </a>
         </div>

@@ -1,0 +1,128 @@
+{
+    "hero": {
+        "title": "سلام! من سینا صحرائیان هستم، یک توسعه دهنده Next.js.",
+        "motto": "طراحی برنامه‌های شکیل تحت وب",
+        "button": "دانلود رزومه"
+    },
+    "navbar": [
+        {
+            "name": "درباره",
+            "link": "/about"
+        },
+        {
+            "name": "پروژه ها",
+            "link": "/skills"
+        },
+        {
+            "name": "سابقه کار",
+            "link": "/workxp"
+        }
+    ],
+    "gridItems": [
+        {
+            "id": 1,
+            "title": "وفادار به دیدگاه شما، متعهد به موفقیت",
+            "description": "",
+            "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+            "imgClassName": "w-full h-full",
+            "titleClassName": "justify-start",
+            "img": "/back10.png",
+            "spareImg": ""
+        },
+        {
+            "id": 3,
+            "title": "تکنولوژی‌های من",
+            "description": "همیشه در حال یادگیری",
+            "className": "lg:col-span-2 md:col-span-3 md:row-span-2 md:min-h-64",
+            "imgClassName": "",
+            "titleClassName": "justify-center",
+            "img": "",
+            "spareImg": ""
+        },
+        {
+            "id": 6,
+            "title": "اگر علاقه‌مند هستید، با من تماس بگیرید",
+            "description": "",
+            "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
+            "imgClassName": "",
+            "titleClassName": "justify-center md:max-w-full max-w-60 text-center ",
+            "img": "",
+            "spareImg": ""
+        }
+    ],
+    "gridItemsButton": {
+        "default": "کپی ایمیل",
+        "copied": "کپی شد"
+    },
+    "recentProjects": {
+        "projects": [
+            {
+                "id": 1,
+                "title": "همسینک",
+                "des": "'هم سینک' یک اپلیکیشن تحت وب است که ارتباط متخصصان حوزه های مختلف را با افراد تازه کار ساده میکند. در هم سینک افرادی که جویای یادگیری مسئله ای هستند میتوانند نیاز خود را در قالب یک آگهی منتشر کنند تا افراد متخصص سرویس های خود را در اختیار آن ها قرار دهند.",
+                "img": "/hamsync.png",
+                "iconLists": [
+                    "/re.svg",
+                    "/tail.svg",
+                    "/ts.svg"
+                ],
+                "link": "/hamsync.com"
+            },
+            {
+                "id": 3,
+                "title": "جلوتر",
+                "des": "'جلوتر' یک اپلیکیشن تحت وب است که مدیریت تیم و پروژه ها را برای ذی نفعان ساده تر میکند.",
+                "img": "/jelotar.png",
+                "iconLists": [
+                    "/re.svg",
+                    "/tail.svg"
+                ],
+                "link": "/jelotar.com"
+            },
+            {
+                "id": 2,
+                "title": "2byte",
+                "des": "یک لندینگ پیج برای تیم 2Byte",
+                "img": "/2byte.png",
+                "iconLists": [
+                    "/next copy.svg",
+                    "/re.svg",
+                    "/tail.svg",
+                    "/ts.svg"
+                ],
+                "link": "/2byte.tech"
+            }
+        ],
+        "link": "مشاهده سایت",
+        "title": "پروژه ها"
+    },
+    "history": {
+        "workXp": [
+            {
+                "id": 1,
+                "title": "کارآموز فرانت‌اند",
+                "desc": "کمک به توسعه و آزمایش برنامه‌های تحت وب",
+                "className": "md:col-span-2",
+                "thumbnail": "/exp1.svg",
+                "link": "https://it.perxact.de/",
+                "cta": "مشاهده"
+            },
+            {
+                "id": 2,
+                "title": "توسعه‌دهنده فرانت‌اند",
+                "desc": "طراحی و توسعه برنامه‌های وب در تیم 2Byte",
+                "className": "md:col-span-2",
+                "thumbnail": "/exp2.svg",
+                "link": "https://2byte.tech",
+                "cta": "مشاهده"
+            }
+        ],
+        "title": "سابقه کار"
+    },
+    "footer": {
+        "title": "اگر می‌خواهید با من ارتباط برقرار کنید، در دسترس هستم",
+        "subtitle": "با من در تماس باشید تا درباره نحوه همکاری و ارائه خدمات صحبت کنیم",
+        "button": "تماس با من",
+        "copyright": "© ۱۴۰۳ - تمامی حقوق برای اینجانب محفوظ است"
+    }
+}

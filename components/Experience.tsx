@@ -4,15 +4,15 @@ import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
 import Link from 'next/link';
 
-const Experience = () => {
+const Experience = ({ locale, dict }: { locale?: string, dict: any }) => {
   return (
-    <div className="py-20 w-full">
+    <div dir={locale === 'fa' ? 'rtl' : 'ltr'} className="py-20 w-full">
       <h1 className="heading">
-        My <span className="text-purple">work experience</span>
+         <span className="text-purple">{dict.history.title}</span>
       </h1>
 
       <div id='workxp' className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
-        {workExperience.map((card) => (
+        {dict.history.workXp.map((card: any) => (
           <Button
             key={card.id}
             //   random duration will be fun , I think , may be not
@@ -44,7 +44,7 @@ const Experience = () => {
                   {card.desc}
                 </p>
                 <Link target='_blank' href={card.link} className="underline text-purple text-sm flex mt-3 items-center gap-x-1 w-min">
-                  <span>visit</span> <FaExternalLinkAlt size={12}/>
+                  <span>{card.cta}</span> <FaExternalLinkAlt size={12} />
                 </Link>
               </div>
             </div>

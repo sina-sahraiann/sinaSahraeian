@@ -28,7 +28,7 @@ export const TextGenerateEffect = ({
 
   const renderWords = () => {
     return (
-      <motion.div className="text-balance" ref={scope}>
+      <motion.div dir={'auto'} className="text-balance" ref={scope}>
         {wordsArray.map((word, idx) => {
           return (
             <motion.span

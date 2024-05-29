@@ -1,14 +1,19 @@
 import type { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
+import { Open_Sans ,Vazirmatn } from "next/font/google";
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
 
 
-import "./globals.css";
-import { ThemeProvider } from "./provider";
+import "../globals.css";
+import { ThemeProvider } from "../provider";
+import { cn } from "@/lib/utils";
 
-const inter = Open_Sans({ subsets: ['latin'], weight: ["300", "400", "500", "700"] });
+const inter = Open_Sans({ subsets: ['latin'], weight: ["300", "400", "500", "700"], variable: '--font-inter'});
+const vazirmatn = Vazirmatn({
+  subsets: ['arabic'],
+  variable: '--font-vazirmatn',
+});
 
 export const metadata: Metadata = {
   title: "Sina Sahraeian",
@@ -25,7 +30,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="manifest/favicon.ico" sizes="48x48" />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.variable} ${vazirmatn.variable}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

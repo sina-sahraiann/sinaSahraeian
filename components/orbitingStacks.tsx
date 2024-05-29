@@ -1,10 +1,11 @@
+import { cn } from "@/lib/utils";
 import OrbitingCircles from "./ui/orbiting-circles";
 import { IconProps } from "@radix-ui/react-icons/dist/types";
 
 
-export function OrbitingStacks() {
+export function OrbitingStacks({ locale }: { locale?: string }) {
    return (
-      <div className="absolute flex left-14 h-[500px] w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg md:shadow-xl">
+      <div className={cn(locale ==='fa' ? '' : 'left-14' ,"absolute flex h-[500px] w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg md:shadow-xl")}>
          <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b  bg-clip-text text-center text-8xl font-semibold leading-none text-transparent ">
             Circles
          </span>

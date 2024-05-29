@@ -99,7 +99,7 @@ const config = {
             transform:
               "rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)",
           },
-        },  
+        },
         spotlight: {
           "0%": {
             opacity: "0",
@@ -170,6 +170,10 @@ const config = {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
         orbit: "orbit calc(var(--duration)*1s) linear infinite",
+      },
+      fontFamily: {
+        sans: ["var(--font-inter)"],
+        vazir: ["var(--font-vazirmatn)"],
       },
     },
   },

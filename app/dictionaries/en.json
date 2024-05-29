@@ -1,0 +1,128 @@
+{
+    "hero": {
+        "title": "Hi! I'm Sina Sahraeian, a Next.js Developer.",
+        "motto": "CRAFTING ELEGANT WEB APPLICATION",
+        "button": "Download Resume"
+    },
+    "navbar": [
+        {
+            "name": "About",
+            "link": "/about"
+        },
+        {
+            "name": "Projects",
+            "link": "/skills"
+        },
+        {
+            "name": "WorkXp",
+            "link": "/workxp"
+        }
+    ],
+    "gridItems": [
+        {
+            "id": 1,
+            "title": "Loyal to Your Vision, Committed to Success",
+            "description": "",
+            "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+            "imgClassName": "w-full h-full",
+            "titleClassName": "justify-start",
+            "img": "/back10.png",
+            "spareImg": ""
+        },
+        {
+            "id": 3,
+            "title": "My tech stack",
+            "description": "Learning never stops",
+            "className": "lg:col-span-2 md:col-span-3 md:row-span-2 md:min-h-64",
+            "imgClassName": "",
+            "titleClassName": "justify-center",
+            "img": "",
+            "spareImg": ""
+        },
+        {
+            "id": 6,
+            "title": "Contact me if you are interested",
+            "description": "",
+            "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
+            "imgClassName": "",
+            "titleClassName": "justify-center md:max-w-full max-w-60 text-center",
+            "img": "",
+            "spareImg": ""
+        }
+    ],
+    "gridItemsButton": {
+        "default": "Copy my email address",
+        "copied": "Email is Copied!"
+    },
+    "recentProjects": {
+        "projects": [
+            {
+                "id": 1,
+                "title": "Hamsync",
+                "des": "'Hamsync' is a mentor connection platform for seekers and professionals.",
+                "img": "/hamsync.png",
+                "iconLists": [
+                    "/re.svg",
+                    "/tail.svg",
+                    "/ts.svg"
+                ],
+                "link": "/hamsync.com"
+            },
+            {
+                "id": 3,
+                "title": "Jelotar",
+                "des": "Jelotar is a task managment system that has all the basic needs of a software team",
+                "img": "/jelotar.png",
+                "iconLists": [
+                    "/re.svg",
+                    "/tail.svg"
+                ],
+                "link": "/jelotar.com"
+            },
+            {
+                "id": 2,
+                "title": "2byte",
+                "des": "A landing page website for the 2byte team",
+                "img": "/2byte.png",
+                "iconLists": [
+                    "/next copy.svg",
+                    "/re.svg",
+                    "/tail.svg",
+                    "/ts.svg"
+                ],
+                "link": "/2byte.tech"
+            }
+        ],
+        "link": "Check Live Site",
+        "title": "recent projects"
+    },
+    "history": {
+        "workXp": [
+            {
+                "id": 1,
+                "title": "Frontend Intern",
+                "desc": "Assisted in developing and testing web applications in Perxact compony",
+                "className": "md:col-span-2",
+                "thumbnail": "/exp1.svg",
+                "link": "https://it.perxact.de/",
+                "cta": "visit"
+            },
+            {
+                "id": 2,
+                "title": "Frontend Developer",
+                "desc": "Designed and developed web applications in 2Byte team",
+                "className": "md:col-span-2",
+                "thumbnail": "/exp2.svg",
+                "link": "https://2byte.tech",
+                "cta": "visit"
+            }
+        ],
+        "title" : "My work experience"
+    },
+    "footer" : {
+        "title" : "Got a question, project idea, or just want to connect?",
+        "subtitle" : "Reach out to me today and let's discuss how I can offer you my services",
+        "button" : "Let's get in touch",
+        "copyright" : "Copyright © 2024 Sina Sahraeian"
+    } 
+}

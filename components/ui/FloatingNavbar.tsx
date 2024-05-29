@@ -8,20 +8,26 @@ import {
 } from "framer-motion";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./select";
+import { ChevronDownIcon, LucideOctagonAlert } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 export const FloatingNav = ({
   navItems,
   className,
+  locale,
 }: {
   navItems: {
     name: string;
     link: string;
-    icon?: JSX.Element;
   }[];
   className?: string;
+  locale?: string;
 }) => {
   const { scrollYProgress } = useScroll();
+  const router = useRouter();
 
+  const [selected, setSelected] = useState(locale || 'en');
   // set true for the initial state so that nav bar is visible in the hero section
   const [visible, setVisible] = useState(true);
 
@@ -76,15 +82,27 @@ export const FloatingNav = ({
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(
-              "relative dark:text-neutral-50 items-center  flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
+              "relative dark:text-neutral-50 items-center flex text-nowrap space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
             )}
           >
-            <span className="block sm:hidden">{navItem.icon}</span>
+            {/* <span className="block sm:hidden">{navItem.icon}</span> */}
             {/* add !cursor-pointer */}
             {/* remove hidden sm:block for the mobile responsive */}
             <span className=" text-sm !cursor-pointer">{navItem.name}</span>
           </Link>
         ))}
+
+        <Select value={selected} onValueChange={(e) => { setSelected(e); router.push(e) }}>
+          <SelectTrigger className="bg-transparent border-0">
+            <SelectValue placeholder="Select language" />
+            <ChevronDownIcon className="ml-2 h-4 w-4" />
+          </SelectTrigger>
+          <SelectContent className="z-[6000]">
+            <SelectItem value="fa" className="font-vazir">فا</SelectItem>
+            <SelectItem value="en" className="font-sans">EN</SelectItem>
+          </SelectContent>
+        </Select>
+
         {/* remove this login btn */}
         {/* <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
           <span>Login</span>

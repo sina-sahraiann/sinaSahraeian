@@ -6,14 +6,14 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
-const RecentProjects = () => {
+const RecentProjects = ({ locale, dict }: { locale?: string, dict: any }) => {
   return (
-    <div id='projects' className="py-20">
+    <div dir={locale === 'fa' ? 'rtl' : 'ltr'} id='projects' className="py-20">
       <h1 className="heading">
-        <span className="text-purple">recent projects</span>
+        <span className="text-purple">{dict.recentProjects.title}</span>
       </h1>
-      <div  className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        {projects.map((item) => (
+      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+        {dict.recentProjects.projects.map((item: any) => (
           <Link
             href={'https://' + item.link}
             target="_blank"
@@ -54,7 +54,7 @@ const RecentProjects = () => {
 
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
-                  {item.iconLists.map((icon, index) => (
+                  {item.iconLists.map((icon: any, index: any) => (
                     <div
                       key={index}
                       className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
@@ -69,7 +69,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    {dict.recentProjects.link}
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>

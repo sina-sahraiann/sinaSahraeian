@@ -1,11 +1,11 @@
 import { gridItems } from "@/data";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 
-const Grid = () => {
+const Grid = ({ locale, dict }: { locale?: string, dict: any }) => {
   return (
-    <section id="about">
+    <section dir={locale === 'fa' ? 'rtl' : 'ltr'} id="about">
       <BentoGrid className="w-full py-20 ">
-        {gridItems.map((item, i) => (
+        {dict.gridItems.map((item: any, i: any) => (
           <BentoGridItem
             id={item.id}
             key={i}
@@ -18,6 +18,8 @@ const Grid = () => {
             imgClassName={item.imgClassName}
             titleClassName={item.titleClassName}
             spareImg={item.spareImg}
+            locale={locale}
+            dict={dict}
           />
         ))}
       </BentoGrid>
