@@ -7,15 +7,15 @@
     "navbar": [
         {
             "name": "درباره",
-            "link": "/about"
+            "link": "#about"
         },
         {
             "name": "پروژه ها",
-            "link": "/skills"
+            "link": "#projects"
         },
         {
             "name": "سابقه کار",
-            "link": "/workxp"
+            "link": "#workxp"
         }
     ],
     "gridItems": [
