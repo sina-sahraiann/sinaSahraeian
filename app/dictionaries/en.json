@@ -78,19 +78,6 @@
                     "/tail.svg"
                 ],
                 "link": "/jelotar.com"
-            },
-            {
-                "id": 2,
-                "title": "2byte",
-                "des": "A landing page website for the 2byte team",
-                "img": "/2byte.png",
-                "iconLists": [
-                    "/next copy.svg",
-                    "/re.svg",
-                    "/tail.svg",
-                    "/ts.svg"
-                ],
-                "link": "/2byte.tech"
             }
         ],
         "link": "Check Live Site",
