@@ -57,27 +57,48 @@
     "recentProjects": {
         "projects": [
             {
-                "id": 1,
-                "title": "Hamsync",
-                "des": "'Hamsync' is a mentor connection platform for seekers and professionals.",
-                "img": "/hamsync.png",
+                "id": 4,
+                "title": "DrDanna LMS",
+                "des": "Developed a learning management system (LMS) to facilitate mentorship, courses, and educational resources using React.js. Integrated a user-friendly interface and emphasized responsive design to enhance user experience.",
+                "img": "/drdanna.png",
                 "iconLists": [
                     "/re.svg",
-                    "/tail.svg",
                     "/ts.svg"
                 ],
-                "link": "/hamsync.com"
+                "link": "/web.drdanaa.ir"
             },
             {
-                "id": 3,
-                "title": "Jelotar",
-                "des": "Jelotar is a task managment system that has all the basic needs of a software team",
-                "img": "/jelotar.png",
+                "id": 5,
+                "title": "Persian Gulf Central Lab",
+                "des": "Developed CentLab, an e-commerce platform for lab experiment scheduling and material purchases. Created dynamic, responsive forms and a seamless inventory management UI to enhance efficiency.",
+                "img": "/centlab.png",
                 "iconLists": [
                     "/re.svg",
-                    "/tail.svg"
+                    "/ts.svg"
                 ],
-                "link": "/jelotar.com"
+                "link": "/centlab-web.liara.run"
+            },
+            {
+                "id": 6,
+                "title": "Pertask",
+                "des": "Built a task management system for tracking work hours and staff performance. Features exportable HR tools, admin dashboard with CRUD, filtering, and customizable widgets.",
+                "img": "/pertask.png",
+                "iconLists": [
+                    "/re.svg",
+                    "/ts.svg"
+                ],
+                "link": "/pertask.perxact.de"
+            },
+            {
+                "id": 7,
+                "title": "Sepehr Saya Airtaxi",
+                "des": "Built a web app for booking flight tickets and purchasing aviation-related courses. Included intuitive search and filtering with an integrated e-commerce system.",
+                "img": "/airtaxi.png",
+                "iconLists": [
+                    "/next copy.svg",
+                    "/ts.svg"
+                ],
+                "link": "/airtaxi.com"
             }
         ],
         "link": "Check Live Site",
@@ -111,5 +132,5 @@
         "subtitle" : "Reach out to me today and let's discuss how I can offer you my services",
         "button" : "Let's get in touch",
         "copyright" : "Copyright © 2024 Sina Sahraeian"
-    } 
+    }
 }

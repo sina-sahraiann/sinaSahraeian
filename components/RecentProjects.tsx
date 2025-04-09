@@ -34,7 +34,7 @@ const RecentProjects = ({ locale, dict }: { locale?: string, dict: any }) => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 bottom-0 object-cover"
                 />
               </div>
 
