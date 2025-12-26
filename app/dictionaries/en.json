@@ -57,6 +57,17 @@
     "recentProjects": {
         "projects": [
             {
+                "id": 3,
+                "title": "Sibtorsh Webapp",
+                "des": "Developed a React-based Progressive Web App (PWA) for a Persian Konkur learning platform, enabling access to educational posts, course videos, and private consultant interactions. Implemented mobile-first, installable PWA behavior with optimized performance and responsive UI to deliver a native-like learning experience on the web. ",
+                "img": "/sibtorsh.png",
+                "iconLists": [
+                    "/re.svg",
+                    "/ts.svg"
+                ],
+                "link": "web.siiibtorsh.ir/"
+            },
+            {
                 "id": 4,
                 "title": "DrDanna LMS",
                 "des": "Developed a learning management system (LMS) to facilitate mentorship, courses, and educational resources using React.js. Integrated a user-friendly interface and emphasized responsive design to enhance user experience.",
@@ -76,7 +87,7 @@
                     "/re.svg",
                     "/ts.svg"
                 ],
-                "link": "/centlab-web.liara.run"
+                "link": "centlab.pgu.ac.ir/"
             },
             {
                 "id": 6,
@@ -98,7 +109,7 @@
                     "/next copy.svg",
                     "/ts.svg"
                 ],
-                "link": "/airtaxi.com"
+                "link": "/"
             }
         ],
         "link": "Check Live Site",
@@ -108,11 +119,11 @@
         "workXp": [
             {
                 "id": 1,
-                "title": "Frontend Intern",
-                "desc": "Assisted in developing and testing web applications in Perxact compony",
+                "title": "Frontend Developer",
+                "desc": "Developed and maintained a React-based PWA for a Persian Konkur education platform.",
                 "className": "md:col-span-2",
-                "thumbnail": "/exp1.svg",
-                "link": "https://it.perxact.de/",
+                "thumbnail": "/exp2.svg",
+                "link": "https://siiibtorsh.ir/",
                 "cta": "visit"
             },
             {
@@ -123,14 +134,23 @@
                 "thumbnail": "/exp2.svg",
                 "link": "https://2byte.tech",
                 "cta": "visit"
+            },
+            {
+                "id": 1,
+                "title": "Frontend Intern",
+                "desc": "Assisted in developing and testing web applications in Perxact compony",
+                "className": "md:col-span-2",
+                "thumbnail": "/exp1.svg",
+                "link": "https://it.perxact.de/",
+                "cta": "visit"
             }
         ],
-        "title" : "My work experience"
+        "title": "My work experience"
     },
-    "footer" : {
-        "title" : "Got a question, project idea, or just want to connect?",
-        "subtitle" : "Reach out to me today and let's discuss how I can offer you my services",
-        "button" : "Let's get in touch",
-        "copyright" : "Copyright © 2024 Sina Sahraeian"
+    "footer": {
+        "title": "Got a question, project idea, or just want to connect?",
+        "subtitle": "Reach out to me today and let's discuss how I can offer you my services",
+        "button": "Let's get in touch",
+        "copyright": "Copyright © 2024 Sina Sahraeian"
     }
 }

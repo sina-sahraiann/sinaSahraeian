@@ -57,6 +57,17 @@
     "recentProjects": {
         "projects": [
             {
+                "id": 3,
+                "title": "Sibtorsh Webapp",
+                "des": "توسعه یک وب‌اپلیکیشن پیش‌رونده (PWA) مبتنی بر React برای یک پلتفرم آموزشی کنکور فارسی که امکان دسترسی به مطالب آموزشی، ویدئوهای دوره‌ها و تعامل خصوصی با مشاوران را فراهم می‌کند. پیاده‌سازی رویکرد mobile-first و قابلیت نصب PWA با عملکرد بهینه و رابط کاربری واکنش‌گرا به‌منظور ارائه تجربه‌ای نزدیک به اپلیکیشن‌های بومی در بستر وب.",
+                "img": "/sibtorsh.png",
+                "iconLists": [
+                    "/re.svg",
+                    "/ts.svg"
+                ],
+                "link": "web.siiibtorsh.ir/"
+            },
+            {
                 "id": 4,
                 "title": "DrDanna LMS",
                 "des": "سیستم مدیریت آموزشی برای برگزاری دوره‌ها و تعامل منتور-منتو. طراحی واکنش‌گرا و رابط کاربری ساده برای بهبود تجربه‌ی یادگیری.",
@@ -76,7 +87,7 @@
                     "/re.svg",
                     "/ts.svg"
                 ],
-                "link": "/centlab-web.liara.run"
+                "link": "centlab.pgu.ac.ir/"
             },
             {
                 "id": 6,
@@ -98,7 +109,7 @@
                     "/re.svg",
                     "/next copy.svg"
                 ],
-                "link": "/airtaxi.com"
+                "link": "/"
             }
         ],
         "link": "مشاهده سایت",
@@ -108,6 +119,15 @@
         "workXp": [
             {
                 "id": 1,
+                "title": "توسعه دهنده فرانت‌اند",
+                "desc": "توسعه و نگهداری یک وب‌اپلیکیشن پیش‌رونده (PWA) مبتنی بر React برای یک پلتفرم آموزشی کنکور فارسی.",
+                "className": "md:col-span-2",
+                "thumbnail": "/exp2.svg",
+                "link": "https://siiibtorsh.ir/",
+                "cta": "مشاهده"
+            },
+            {
+                "id": 2,
                 "title": "کارآموز فرانت‌اند",
                 "desc": "کمک به توسعه و آزمایش برنامه‌های تحت وب در شرکت perxact",
                 "className": "md:col-span-2",
@@ -116,12 +136,21 @@
                 "cta": "مشاهده"
             },
             {
-                "id": 2,
+                "id": 3,
                 "title": "توسعه‌دهنده فرانت‌اند",
                 "desc": "طراحی و توسعه برنامه‌های وب در تیم 2Byte",
                 "className": "md:col-span-2",
                 "thumbnail": "/exp2.svg",
                 "link": "https://2byte.tech",
+                "cta": "مشاهده"
+            },
+            {
+                "id": 2,
+                "title": "کارآموز فرانت‌اند",
+                "desc": "کمک به توسعه و آزمایش برنامه‌های تحت وب در شرکت perxact",
+                "className": "md:col-span-2",
+                "thumbnail": "/exp1.svg",
+                "link": "https://it.perxact.de/",
                 "cta": "مشاهده"
             }
         ],
