@@ -123,7 +123,7 @@
                 "desc": "توسعه و نگهداری یک وب‌اپلیکیشن پیش‌رونده (PWA) مبتنی بر React برای یک پلتفرم آموزشی کنکور فارسی.",
                 "className": "md:col-span-2",
                 "thumbnail": "/exp2.svg",
-                "link": "https://siiibtorsh.ir/",
+                "link": "siiibtorsh.ir/",
                 "cta": "مشاهده"
             },
             {
@@ -132,7 +132,7 @@
                 "desc": "کمک به توسعه و آزمایش برنامه‌های تحت وب در شرکت perxact",
                 "className": "md:col-span-2",
                 "thumbnail": "/exp1.svg",
-                "link": "https://it.perxact.de/",
+                "link": "it.perxact.de/",
                 "cta": "مشاهده"
             },
             {
@@ -141,7 +141,7 @@
                 "desc": "طراحی و توسعه برنامه‌های وب در تیم 2Byte",
                 "className": "md:col-span-2",
                 "thumbnail": "/exp2.svg",
-                "link": "https://2byte.tech",
+                "link": "2byte.tech",
                 "cta": "مشاهده"
             },
             {
@@ -150,7 +150,7 @@
                 "desc": "کمک به توسعه و آزمایش برنامه‌های تحت وب در شرکت perxact",
                 "className": "md:col-span-2",
                 "thumbnail": "/exp1.svg",
-                "link": "https://it.perxact.de/",
+                "link": "it.perxact.de/",
                 "cta": "مشاهده"
             }
         ],
