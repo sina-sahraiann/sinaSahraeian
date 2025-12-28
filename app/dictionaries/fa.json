@@ -65,7 +65,7 @@
                     "/re.svg",
                     "/ts.svg"
                 ],
-                "link": "web.siiibtorsh.ir/"
+                "link": "web.siiibtorsh.ir"
             },
             {
                 "id": 4,
@@ -76,7 +76,7 @@
                     "/re.svg",
                     "/ts.svg"
                 ],
-                "link": "/web.drdanaa.ir"
+                "link": "web.drdanaa.ir"
             },
             {
                 "id": 5,
@@ -87,7 +87,7 @@
                     "/re.svg",
                     "/ts.svg"
                 ],
-                "link": "centlab.pgu.ac.ir/"
+                "link": "centlab.pgu.ac.ir"
             },
             {
                 "id": 6,
@@ -98,7 +98,7 @@
                     "/re.svg",
                     "/ts.svg"
                 ],
-                "link": "/pertask.perxact.de"
+                "link": "pertask.perxact.de"
             },
             {
                 "id": 7,
@@ -109,7 +109,7 @@
                     "/re.svg",
                     "/next copy.svg"
                 ],
-                "link": "/"
+                "link": "sepehr360.ir"
             }
         ],
         "link": "مشاهده سایت",
@@ -123,7 +123,7 @@
                 "desc": "توسعه و نگهداری یک وب‌اپلیکیشن پیش‌رونده (PWA) مبتنی بر React برای یک پلتفرم آموزشی کنکور فارسی.",
                 "className": "md:col-span-2",
                 "thumbnail": "/exp2.svg",
-                "link": "siiibtorsh.ir/",
+                "link": "https://siiibtorsh.ir",
                 "cta": "مشاهده"
             },
             {
@@ -132,7 +132,7 @@
                 "desc": "کمک به توسعه و آزمایش برنامه‌های تحت وب در شرکت perxact",
                 "className": "md:col-span-2",
                 "thumbnail": "/exp1.svg",
-                "link": "it.perxact.de/",
+                "link": "https://it.perxact.de",
                 "cta": "مشاهده"
             },
             {
@@ -141,7 +141,7 @@
                 "desc": "طراحی و توسعه برنامه‌های وب در تیم 2Byte",
                 "className": "md:col-span-2",
                 "thumbnail": "/exp2.svg",
-                "link": "2byte.tech",
+                "link": "https://2byte.tech",
                 "cta": "مشاهده"
             },
             {
@@ -150,7 +150,7 @@
                 "desc": "کمک به توسعه و آزمایش برنامه‌های تحت وب در شرکت perxact",
                 "className": "md:col-span-2",
                 "thumbnail": "/exp1.svg",
-                "link": "it.perxact.de/",
+                "link": "https://it.perxact.de",
                 "cta": "مشاهده"
             }
         ],

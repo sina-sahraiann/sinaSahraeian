@@ -76,7 +76,7 @@
                     "/re.svg",
                     "/ts.svg"
                 ],
-                "link": "/web.drdanaa.ir"
+                "link": "web.drdanaa.ir"
             },
             {
                 "id": 5,
@@ -87,7 +87,7 @@
                     "/re.svg",
                     "/ts.svg"
                 ],
-                "link": "centlab.pgu.ac.ir/"
+                    "link": "centlab.pgu.ac.ir/"
             },
             {
                 "id": 6,
@@ -98,7 +98,7 @@
                     "/re.svg",
                     "/ts.svg"
                 ],
-                "link": "/pertask.perxact.de"
+                "link": "pertask.perxact.de"
             },
             {
                 "id": 7,
@@ -109,7 +109,7 @@
                     "/next copy.svg",
                     "/ts.svg"
                 ],
-                "link": "/"
+                "link": "sepehr360.ir"
             }
         ],
         "link": "Check Live Site",
